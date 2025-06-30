@@ -4,7 +4,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,9 +14,12 @@
     "axios": "^1.10.0",
     "cors": "^2.8.5",
     "dotenv": "^17.0.0",
+    "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "multer": "^2.0.1",
     "nodemon": "^3.1.10",
     "pdf-parse": "^1.1.1"
-  }
+  },
+  "keywords": [],
+  "type": "commonjs"
 }

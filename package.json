@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  },
+  "name": "ipssi-apocalipssi",
+  "version": "1.0.0",
+  "description": "**APOCALIPSSI GROUPE 2**",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamid-mans/apocalipssi_groupe_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamid-mans/apocalipssi_groupe_2/issues"
+  },
+  "homepage": "https://github.com/hamid-mans/apocalipssi_groupe_2#readme"
+}

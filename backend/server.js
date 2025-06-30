@@ -22,10 +22,10 @@ app.post('/api/summarize', upload.single('pdf'), async (req, res) => {
 	try {
 		const dataBuffer = fs.readFileSync(pdfPath);
 		const pdfData = await pdfParse(dataBuffer);
-		const rawText = pdfData.text.substring(0, 1024); // tronquer si trop long
+		const rawText = pdfData.text.substring(0, 1024);
 
 		const hfResponse = await axios.post(
-			'https://api-inference.huggingface.co/models/facebook/bart-large-cnn',
+  				'https://api-inference.huggingface.co/models/sshleifer/distilbart-cnn-12-6',
 			{ inputs: rawText },
 			{
 				headers: {
